@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Django Search Console</title>
+</head>
+<body>
+    <strong><h1>Django Filter Dynamically Search Console</h1></strong>
+    <hr>
+    <a href="{% url "home" %}">HOME</a> ||
+    <a href="{% url "core:list" %}">SEARCH</a>
+    <hr>
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
